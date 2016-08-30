@@ -1,0 +1,28 @@
+[
+  {
+    "path": "/",
+    "page": "./pages/home",
+    "chunk": "main"
+  },
+  {
+    "path": "/error",
+    "page": "./pages/error",
+    "chunk": "main"
+  },
+  {
+    "path": "/profile",
+    "page": "./pages/profile"
+  },
+  {
+    "path": "/signup",
+    "page": "./pages/signup"
+  },
+  {
+    "path": "/signin",
+    "page": "./pages/signin"
+  },
+  {
+    "path": "/tasks/:status(pending|completed)?",
+    "page": "./pages/home"
+  }
+]
