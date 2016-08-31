@@ -10,6 +10,7 @@
 
 import React from 'react';
 import Link from '../Link';
+import s from './Footer.css'
 
 function Footer() {
   return (
