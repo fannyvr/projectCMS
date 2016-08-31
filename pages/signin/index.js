@@ -23,16 +23,6 @@ class SigninPage extends React.Component {
     return (
       <Layout className={s.content}>
         <div dangerouslySetInnerHTML={{ __html: html }} />
-        
-        <p>
-          <br /><br />
-          <br /><br />
-          <br /><br />
-          <br /><br />
-          <br /><br />
-          <br /><br />
-          <br /><br />
-        </p>
       </Layout>
     );
   }
