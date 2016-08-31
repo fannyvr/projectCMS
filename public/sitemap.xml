@@ -10,6 +10,9 @@
     <loc>projectcms-ec863.firebaseio.com/profile</loc>
   </url>
   <url>
+    <loc>projectcms-ec863.firebaseio.com/signout</loc>
+  </url>
+  <url>
     <loc>projectcms-ec863.firebaseio.com/signup</loc>
   </url>
   <url>
