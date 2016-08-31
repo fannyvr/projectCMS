@@ -1,7 +1,7 @@
 [
   {
     "path": "/",
-    "page": "./pages/home",
+    "page": "./pages/profile",
     "chunk": "main"
   },
   {
@@ -12,6 +12,10 @@
   {
     "path": "/profile",
     "page": "./pages/profile"
+  },
+  {
+    "path": "/signout",
+    "page": "./pages/signin"
   },
   {
     "path": "/signup",
