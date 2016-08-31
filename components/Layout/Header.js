@@ -9,9 +9,9 @@
  */
 
 import React from 'react';
-import Navigation from './Navigation';
 import Link from '../Link';
 import s from './Header.css';
+import NavBar from './Loginview';
 
 class Header extends React.Component {
 
@@ -27,11 +27,8 @@ class Header extends React.Component {
     return (
       <header className={`mdl-layout__header ${s.header}`} ref={node => (this.root = node)}>
         <div className={`mdl-layout__header-row ${s.row}`}>
-          <Link className={`mdl-layout-title ${s.title}`} to="/profile">
-            Profile 
-          </Link>
           <div className="mdl-layout-spacer"></div>
-          <Navigation />
+          <NavBar />
         </div>
       </header>
     );
